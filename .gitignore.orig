@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 .DS_Store
 .ipynb_checkpoints
+data/
 README_original.md
 Requirements.txt
 =======
@@ -82,6 +83,7 @@ target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+>>>>>>> ec31d9f16177327bf7e2104ddf8c420d29a1cf3b
 
 # IPython
 profile_default/
@@ -133,4 +135,3 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
->>>>>>> ec31d9f16177327bf7e2104ddf8c420d29a1cf3b
