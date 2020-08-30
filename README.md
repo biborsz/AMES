@@ -28,11 +28,11 @@
 
 For the purposes of this project two subreddits were selected:
 
-**r/askscience** <br> Created: September 5, 2008. <br> Members: 18.9m <br> Description: ask a science question and get a scientific answer. <br>
-https://www.reddit.com/r/askscience/comments/g45x1t/is_it_a_myth_or_a_fact_that_dogs_can_sniff_cancer/
+[r/askscience](https://www.reddit.com/r/askscience/comments/g45x1t/is_it_a_myth_or_a_fact_that_dogs_can_sniff_cancer/
+) <br> Created: September 5, 2008. <br> Members: 18.9m <br> Description: ask a science question and get a scientific answer. <br>
 
-**r/scifi** <br> Created: January 25, 2008. <br> Members: 1.6m <br> Description: science fiction, speculative fiction, fantasy - books, movies, TV. <br> 
-https://www.reddit.com/r/scifi/
+[r/scifi](https://www.reddit.com/r/scifi/) <br> Created: January 25, 2008. <br> Members: 1.6m <br> Description: science fiction, speculative fiction, fantasy - books, movies, TV. <br> 
+
 
 From the two subreddits submission title, text, timestamp, permalink and id had been extracted with Pushshift's API. 
 
@@ -74,10 +74,10 @@ Regularized Logistic Regression with TF-IDF Vectorizer
 
 **3. Parameters of best model:**
 
-|**TF-IDF Vectorizer**| | **Regularized Logistic Regression**|
-|:---------------------||:-----------------------------------|
-|Max_features = 10_000 words | |      C = 1.85 |
-|Stop words = None | |
+|**TF-IDF Vectorizer**| **Regularized Logistic Regression**|
+|:---------------------|:-----------------------------------|
+|Max_features = 10_000 words |      C = 1.85 |
+|Stop words = None |
 |Ngrams = 1-grams | |
     
 ---
@@ -86,5 +86,7 @@ Regularized Logistic Regression with TF-IDF Vectorizer
 The final model sorts subreddit posts into their appropriate categories with a 94.5% (cross-validated) accuracy, which is way above the 70% benchmark we set. However, there is room for improvement. Science fiction discussions and theorizing may carry similarities to the speech patterns observed in conspiracy theories and fabricated reality-stories. Should we want to add the findings of this data analysis to the growing body of classification models built to distinguish 'fake news' from real ones, I recommend extending research into two directions:
 - remove book/ TV and movie related words from the r/scifi posts - and verify if the difference between science and science fiction related texts still is substantial enough for a machine learning model to differentiate between the two
 - compare r/scifi with subreddits identified as 'fake news' to find possible similarities and differences in the wokabulary and speech pattern 
+
+[Presentation](Presentation.pdf)
   
 <sup><sub>*Source for markdown formatting:* [BalusC](https://meta.stackexchange.com/questions/53800/markdown-extension-for-really-small-tiny-text/53801)<sub><sup>
